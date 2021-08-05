@@ -5,4 +5,14 @@
     </context>
   </template>
   <template name="svch" value="@Slf4j&#10;@Service&#10;@RequiredArgsConstructor" description="Service Header Annotations" toReformat="false" toShortenFQNames="true" />
+  <template name="tsth" value="import org.junit.jupiter.api.Test;&#10;import org.junit.jupiter.api.extension.ExtendWith;&#10;import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;&#10;import org.springframework.boot.test.context.SpringBootTest;&#10;import org.springframework.test.context.junit.jupiter.SpringExtension;&#10;&#10;&#10;import static org.junit.jupiter.api.Assertions.*;&#10;@ExtendWith(SpringExtension.class)&#10;@SpringBootTest&#10;@AutoConfigureMockMvc" description="Test용 import와 Header" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="syso" value="System.out.println();" description="System.out.println" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
