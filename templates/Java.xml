@@ -15,7 +15,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="amp" value="@ApiModelProperty(value = &quot;&quot;, name = &quot;&quot;)" toReformat="false" toShortenFQNames="true">
+  <template name="amp" value="@ApiModelProperty(value = &quot;&quot;, name = &quot;&quot;)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
