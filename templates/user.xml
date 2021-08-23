@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="eth" value="&#10;import lombok.AllArgsConstructor;&#10;import lombok.Builder;&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;&#10;import javax.persistence.Entity;&#10;&#10;@Entity(&quot;&quot;)&#10;@Getter&#10;@Builder&#10;@NoArgsConstructor&#10;@AllArgsConstructor" toReformat="false" toShortenFQNames="true">
+  <template name="eth" value="&#10;import lombok.AllArgsConstructor;&#10;import lombok.Builder;&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;&#10;import javax.persistence.Entity;&#10;&#10;@Entity(&quot;&quot;)&#10;@Getter&#10;@Builder&#10;@NoArgsConstructor&#10;@AllArgsConstructor" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
