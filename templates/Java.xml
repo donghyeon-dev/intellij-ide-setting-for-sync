@@ -1,10 +1,14 @@
 <templateSet group="Java">
-  <template name="dtoh" value="import com.fasterxml.jackson.annotation.JsonIgnoreProperties;&#10;import lombok.AllArgsConstructor;&#10;import lombok.Data;&#10;import lombok.NoArgsConstructor;&#10;&#10;&#10;/**&#10; * BlahBlah Entity 의 DT 를 도와주는 DTO 클래스&#10; */&#10;@Data&#10;@AllArgsConstructor&#10;@NoArgsConstructor&#10;@JsonIgnoreProperties(ignoreUnknown = true)" shortcut="TAB" description="DTO 생성시 반복되는 코드" toReformat="false" toShortenFQNames="true">
+  <template name="dtoh" value="import com.fasterxml.jackson.annotation.JsonIgnoreProperties;&#10;import lombok.AllArgsConstructor;&#10;import lombok.Data;&#10;import lombok.Builder&#10;import lombok.NoArgsConstructor;&#10;&#10;&#10;/**&#10; * BlahBlah Entity 의 DT 를 도와주는 DTO 클래스&#10; */&#10;@Data&#10;@AllArgsConstructor&#10;@NoArgsConstructor&#10;@JsonIgnoreProperties(ignoreUnknown = true)&#10;@Builder" shortcut="TAB" description="DTO 어노테이션" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="svch" value="@Slf4j&#10;@Service&#10;@RequiredArgsConstructor" description="Service Header Annotations" toReformat="false" toShortenFQNames="true" />
+  <template name="svch" value="import lombok.RequiredArgsConstructor;&#10;import lombok.extern.slf4j.Slf4j;&#10;import org.springframework.stereotype.Service;&#10;&#10;&#10;&#10;&#10;@Slf4j&#10;@Service&#10;@RequiredArgsConstructor" description="Service  어노테이션" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
   <template name="tsth" value="import org.junit.jupiter.api.Test;&#10;import org.junit.jupiter.api.extension.ExtendWith;&#10;import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;&#10;import org.springframework.boot.test.context.SpringBootTest;&#10;import org.springframework.test.context.junit.jupiter.SpringExtension;&#10;&#10;&#10;import static org.junit.jupiter.api.Assertions.*;&#10;@ExtendWith(SpringExtension.class)&#10;@SpringBootTest&#10;@AutoConfigureMockMvc" description="Test용 import와 Header" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
@@ -15,7 +19,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="amp" value="@ApiModelProperty(value = &quot;&quot;, name = &quot;&quot;)" description="" toReformat="false" toShortenFQNames="true">
+  <template name="amp" value="@ApiModelProperty(value = &quot;&quot;, name = &quot;&quot;)" description="@ApiModelProperty" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
