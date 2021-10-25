@@ -14,9 +14,13 @@
           <option name="url" value="http://tde.sktelecom.com" />
           <option name="userName" value="donghyeon3080" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/donghyeon-dev/oh-my-raid.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/dev/cmkp" />
+    <option name="cloneParentDir" value="C:\Users\dongh\dev" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
