@@ -18,6 +18,7 @@
       <map>
         <entry key="IncomingChanges" value="false" />
         <entry key="Memory" value="true" />
+        <entry key="mtThemeFactory" value="false" />
       </map>
     </option>
   </component>
