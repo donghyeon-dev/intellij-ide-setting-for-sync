@@ -90,6 +90,10 @@
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundNodeRenderer">
         <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.ohmyraid.dto.wow_raid.EncounterDto" />
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
+        <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="java.util.ArrayList" />
       </Renderer>
       <Renderer ID="CompoundNodeRenderer">
