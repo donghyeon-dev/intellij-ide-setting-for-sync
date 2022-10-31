@@ -4,7 +4,7 @@
     <property name="created">2020-10-22T20:37:42</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.2.2.0.0</property>
-    <property name="modified">2022-10-27T12:08:31</property>
+    <property name="modified">2022-10-31T18:08:09</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -402,6 +402,7 @@
       <value>
         <option name="FOREGROUND" value="f78c6c" />
         <option name="EFFECT_COLOR" value="f78c6c" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -3440,7 +3441,7 @@
     <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="323232" />
+        <option name="BACKGROUND" value="522c2c" />
       </value>
     </option>
     <option name="SLIM_CLASS">
@@ -3686,13 +3687,13 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4a4d50" />
+        <option name="BACKGROUND" value="522c2c" />
         <option name="ERROR_STRIPE_COLOR" value="4f4f4f" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="424242" />
+        <option name="BACKGROUND" value="0" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
