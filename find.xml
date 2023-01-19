@@ -8,5 +8,6 @@
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.java</mask>
+    <mask>*-local.yml</mask>
   </component>
 </application>
