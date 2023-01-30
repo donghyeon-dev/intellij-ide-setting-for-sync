@@ -16,8 +16,10 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
+        <entry key="AwsSettingsPanel" value="false" />
         <entry key="IncomingChanges" value="false" />
         <entry key="Memory" value="true" />
+        <entry key="aws.codewhisperer" value="false" />
       </map>
     </option>
   </component>
